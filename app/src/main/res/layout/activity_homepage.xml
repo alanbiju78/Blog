@@ -1,0 +1,168 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blog Home"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp" />
+
+        <!-- Post 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#333333">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Title 1"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the description of the first post."
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:padding="4dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baseline_person_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Post Image 1" />
+        </LinearLayout>
+
+        <!-- Post 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#333333">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Title 2"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the description of the second post."
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:padding="4dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baseline_person_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Post Image 2" />
+        </LinearLayout>
+
+        <!-- Post 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="#333333">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Title 3"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the description of the third post."
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:padding="4dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/baseline_person_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Post Image 3" />
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/searchbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="#00A200"
+            android:padding="8dp"
+            android:text="Search"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/notificationbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="#A2A202"
+            android:padding="8dp"
+            android:text="Notifications"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/chatbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="#0050A2"
+            android:padding="8dp"
+            android:text="Chat"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/profilebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="#A20050"
+            android:padding="8dp"
+            android:text="Profile"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginBottom="30px"/>
+    </LinearLayout>
+</ScrollView>
